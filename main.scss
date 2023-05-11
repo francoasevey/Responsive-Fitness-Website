@@ -81,3 +81,36 @@ body{
     }
 }
 
+@media (max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width: 768px){
+    .header{
+        #menu-btn{
+            display: inline-block;
+        }
+        .nav{
+            position: absolute;
+            top: 99%; left: 0; right: 0;
+            background: $white;
+            padding: 1rem 0;
+            flex-flow: column;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+            &.active{
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            }
+            a{
+                color: $black;
+                margin: 1rem 2rem;
+            }
+        }
+    }
+}
+@media (max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+}
