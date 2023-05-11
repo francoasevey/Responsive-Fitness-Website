@@ -90,6 +90,10 @@ body{
     .header{
         #menu-btn{
             display: inline-block;
+
+            &.fa-times{
+                transform: rotate(180deg);
+            }
         }
         .nav{
             position: absolute;
@@ -113,4 +117,7 @@ body{
     html{
         font-size: 50%;
     }
+}
+body{
+    height: 300rem;
 }

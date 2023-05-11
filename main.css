@@ -66,6 +66,9 @@ body {
   .header #menu-btn {
     display: inline-block;
   }
+  .header #menu-btn.fa-times {
+    transform: rotate(180deg);
+  }
   .header .nav {
     position: absolute;
     top: 99%;
@@ -90,4 +93,7 @@ body {
   html {
     font-size: 50%;
   }
+}
+body {
+  height: 300rem;
 }/*# sourceMappingURL=main.css.map */
