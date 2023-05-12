@@ -135,6 +135,20 @@ section {
   color: #ff5421;
 }
 
+.counter {
+  background: url("/images/counter-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.counter .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+.counter .box-container .box {
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
