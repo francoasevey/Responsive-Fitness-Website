@@ -166,6 +166,15 @@ section{
 
         .box{
             text-align: center;
+
+            h3{
+                font-size: 5rem;
+                color: $orange;
+            }
+
+            p{
+                @include title-text(2rem)
+            }
         }
     }
 }
