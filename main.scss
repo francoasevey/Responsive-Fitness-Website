@@ -61,6 +61,7 @@ section{
     cursor: pointer;
     border-radius: .5rem;
     font-size: 1.8rem;
+    text-transform: capitalize;
 
     &:hover{
         background: $white;
@@ -178,6 +179,7 @@ section{
         }
     }
 }
+
 @media (max-width: 991px){
     html{
         font-size: 55%;
