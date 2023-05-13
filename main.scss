@@ -240,6 +240,21 @@ section{
         }
     }
 }
+.pricing{
+    .box-container{
+        @include grid(29rem);
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+
+        .box{
+            padding: 2rem;
+            text-align: center;
+            border: $border;
+            background-color: $bg-color;
+            border-radius: .5rem;
+        }
+    }
+}
 @media (max-width: 991px){
     html{
         font-size: 55%;
