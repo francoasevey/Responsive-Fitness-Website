@@ -308,6 +308,23 @@ section{
         @include graph-text(1.7rem);
     }
 }
+.team{
+    .box-container{
+        @include grid(30rem);
+
+        .box{
+            height: 50rem;
+            overflow: hidden;
+            position: relative;
+
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
 @media (max-width: 991px){
     html{
         font-size: 55%;

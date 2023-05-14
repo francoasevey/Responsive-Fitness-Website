@@ -286,6 +286,23 @@ section {
   color: #ccc;
 }
 
+.team .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.team .box-container .box {
+  height: 50rem;
+  overflow: hidden;
+  position: relative;
+}
+.team .box-container .box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
