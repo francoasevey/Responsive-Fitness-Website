@@ -276,6 +276,13 @@ section {
   .home h3 {
     font-size: 3rem;
   }
+  .pricing .box-container {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .pricing .box-container .box:nth-child(2) {
+    transform: scale(1);
+  }
 }
 @media (max-width: 768px) {
   .header {
