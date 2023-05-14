@@ -253,6 +253,10 @@ section{
             background-color: $bg-color;
             border-radius: .5rem;
 
+            &:nth-child(2){
+                transform: scale(1.2)
+            }
+
             h3{
                 @include title-text(2rem);
                 padding-top: 1rem;
@@ -265,6 +269,23 @@ section{
                 span{
                     font-size: 2rem;
                     font-weight: normal;
+                }
+            }
+
+            .list{
+                padding-top: 2rem;
+
+                p{
+                    @include graph-text(1.7rem);
+
+                    i{
+                        padding-right: .5rem;
+                        color: $orange;
+
+                        &.fa-times{
+                            color: $white;
+                        }
+                    }
                 }
             }
         }

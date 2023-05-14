@@ -233,6 +233,41 @@ section {
   background-color: #1d0e15;
   border-radius: 0.5rem;
 }
+.pricing .box-container .box:nth-child(2) {
+  transform: scale(1.2);
+}
+.pricing .box-container .box h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #fff;
+  padding-top: 1rem;
+}
+.pricing .box-container .box .price {
+  padding: 1rem 0;
+  font-size: 6rem;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: bolder;
+}
+.pricing .box-container .box .price span {
+  font-size: 2rem;
+  font-weight: normal;
+}
+.pricing .box-container .box .list {
+  padding-top: 2rem;
+}
+.pricing .box-container .box .list p {
+  font-size: 1.7rem;
+  line-height: 2;
+  color: #ccc;
+}
+.pricing .box-container .box .list p i {
+  padding-right: 0.5rem;
+  color: #ff5421;
+}
+.pricing .box-container .box .list p i.fa-times {
+  color: #fff;
+}
 
 @media (max-width: 991px) {
   html {
