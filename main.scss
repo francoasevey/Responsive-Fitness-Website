@@ -423,6 +423,35 @@ section{
         }
     }
 }
+.footer{
+    background: url('/images/footer-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .box-container{
+        @include grid(25rem);
+
+        .box{
+
+            h3{
+                @include title-text(2rem);
+                padding: 1rem 0;
+            }
+
+            a{
+                @include graph-text(1.5rem);
+                padding: .5rem 0;
+                display: block;
+
+                i{
+                    padding-right: .5rem;
+                    color: $orange;
+                }
+            }
+        }
+    }
+}
 @media (max-width: 991px){
     html{
         font-size: 55%;

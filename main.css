@@ -389,6 +389,35 @@ section {
   padding-right: 0.5rem;
 }
 
+.footer {
+  background: url("/images/footer-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+.footer .box-container .box h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 1rem 0;
+}
+.footer .box-container .box a {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #ccc;
+  padding: 0.5rem 0;
+  display: block;
+}
+.footer .box-container .box a i {
+  padding-right: 0.5rem;
+  color: #ff5421;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
