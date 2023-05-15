@@ -302,6 +302,21 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.team .box-container .box .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  padding: 1rem 2rem;
+}
+.team .box-container .box .content span {
+  font-size: 1.7rem;
+  color: #ff5421;
+}
+.team .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #000;
+}
 
 @media (max-width: 991px) {
   html {
