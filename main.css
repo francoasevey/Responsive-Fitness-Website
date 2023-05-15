@@ -296,6 +296,12 @@ section {
   overflow: hidden;
   position: relative;
 }
+.team .box-container .box:hover .content {
+  left: -100%;
+}
+.team .box-container .box:hover .share {
+  left: 0;
+}
 .team .box-container .box img {
   height: 100%;
   width: 100%;
@@ -316,6 +322,21 @@ section {
 .team .box-container .box .content h3 {
   font-size: 2rem;
   color: #000;
+}
+.team .box-container .box .share {
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  background: #fff;
+  padding: 1.5rem 1rem;
+}
+.team .box-container .box .share a {
+  font-size: 2rem;
+  color: #000;
+  margin: 0 1rem;
+}
+.team .box-container .box .share a:hover {
+  color: #ff5421;
 }
 
 @media (max-width: 991px) {
