@@ -440,7 +440,7 @@ section{
             }
 
             a{
-                @include graph-text(1.5rem);
+                @include graph-text(1.6rem);
                 padding: .5rem 0;
                 display: block;
 
@@ -448,6 +448,22 @@ section{
                     padding-right: .5rem;
                     color: $orange;
                 }
+
+                &:hover{
+                    color: $orange;
+                }
+            }
+
+            p{
+                @include graph-text(1.8rem);
+            }
+
+            .email{
+                width: 100%;
+                padding: 1.2rem;
+                font-size: 1.6rem;
+                border: $border;
+                margin: 1rem 0;
             }
         }
     }

@@ -407,7 +407,7 @@ section {
   padding: 1rem 0;
 }
 .footer .box-container .box a {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 2;
   color: #ccc;
   padding: 0.5rem 0;
@@ -416,6 +416,21 @@ section {
 .footer .box-container .box a i {
   padding-right: 0.5rem;
   color: #ff5421;
+}
+.footer .box-container .box a:hover {
+  color: #ff5421;
+}
+.footer .box-container .box p {
+  font-size: 1.8rem;
+  line-height: 2;
+  color: #ccc;
+}
+.footer .box-container .box .email {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  margin: 1rem 0;
 }
 
 @media (max-width: 991px) {
