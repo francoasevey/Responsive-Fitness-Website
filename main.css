@@ -357,6 +357,23 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.blogs .box-container .box .content {
+  padding: 2rem;
+}
+.blogs .box-container .box .content .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blogs .box-container .box .content .icons span {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.blogs .box-container .box .content .icons span i {
+  color: #ff5421;
+  padding-right: 0.5rem;
+}
 
 @media (max-width: 991px) {
   html {

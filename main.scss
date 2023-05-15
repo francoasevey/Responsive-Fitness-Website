@@ -386,6 +386,25 @@ section{
                     object-fit: cover;
                 }
             }
+
+            .content{
+                padding: 2rem;
+
+                .icons{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    span{
+                        @include title-text(1.7rem);
+
+                        i{
+                            color: $orange;
+                            padding-right: .5rem;
+                        }
+                    }
+                }
+            }
         }
     }
 }
