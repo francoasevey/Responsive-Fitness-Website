@@ -376,6 +376,10 @@ section{
         .box{
             border: $border;
 
+            &:hover .image img{
+                transform: scale(1.1);
+            }
+
             .image{
                 height: 25rem;
                 overflow: hidden;
@@ -390,13 +394,24 @@ section{
             .content{
                 padding: 2rem;
 
+                .link{
+                    @include title-text(2.7rem);
+
+                    &:hover{
+                        color: $orange;
+                    }
+                }
+
                 .icons{
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+                    padding-top: 2rem;
+                    margin-top: 2rem;
+                    border-top: $border;
 
                     span{
-                        @include title-text(1.7rem);
+                        @include title-text(1.5rem);
 
                         i{
                             color: $orange;
